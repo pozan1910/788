@@ -539,8 +539,4 @@ async def stop(ctx):
         await ctx.reply("❌ Bot zaten bir ses kanalında değil.")
 
 
-try:
-    # Tokenini buraya doğrudan tırnak içinde yapıştır
-    bot.run("MTU0MzM3NTI1OTU4MjA3ODk5Ng.GBoUMM.Rw_M_57osJGGdth3KAVsqz8uP-me0DKdii1rrM")
-except Exception as e:
-    print(f"Bot çalışırken hata oluştu: {e}")
+bot.run("MTU0MzM3NTI1OTU4MjA3ODk5Ng.GmVUns.MgFhTOJJDVV0SSKxLM2SWOaBWT9APRVNjvvdo0")
